@@ -29,4 +29,6 @@ body {
 }
 .card {
   background-color: #fbfcff;
+  border: none;
+  margin-right: 20px;
 }

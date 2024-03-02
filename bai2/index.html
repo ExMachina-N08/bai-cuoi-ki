@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h3>bai tap 2</h3>
+      <p>open console</p>
+    </div>
+    <script>
+      function numberOneTriangle(length) {
+        var dong = "";
+        for (var i = 1; i <= length; i++) {
+          for (var j = 1; j <= i; j++) {
+            dong += "*";
+          }
+          dong += "\n";
+        }
+        return dong + "\n";
+      }
+      console.log(numberOneTriangle(5));
+    </script>
+  </body>
+</html>
